@@ -1,3 +1,3 @@
-palavras = input("Digite palavras separadas por vírgula: ").split(",")
-a = [palavra for palavra in palavras if palavra.lower().startswith("a")]
-print("As palavras que começam com 'a' são:", a)
+palavras = input("Digite uma lista de palavras separadas por vírgula: ").split(",")
+palavras_a = [palavra for palavra in palavras if palavra.lower().startswith("a")]
+print("As palavras que começam com 'a' são:", palavras_a)
