@@ -1,0 +1,3 @@
+numeros = input("Digite uma sequência números e os separe com vírgulas: ").split(",")
+menorcinco = [int(num) for num in numeros if int(num) < 5]
+print("Os números maiores que 10 são:", menorcinco)
